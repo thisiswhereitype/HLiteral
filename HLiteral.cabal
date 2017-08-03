@@ -1,6 +1,7 @@
 name:                HLiteral
 version:             0.1.0.0
--- synopsis:
+synopsis:
+  A script for formating files to haskell string literals.
 -- description:
 homepage:            https://github.com/thisiswhereitype/HLiteral#readme
 license:             BSD3
@@ -8,7 +9,7 @@ license-file:        LICENSE
 author:              Joesph Scott
 maintainer:          notwhereitype@gmail.com
 copyright:           Joesph Scott
-category:            Web
+category:            String, Utility
 build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files:  README.md
