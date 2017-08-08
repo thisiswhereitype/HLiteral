@@ -3,7 +3,7 @@ Takes a file and converts into a compilable string literal.
 
 ## Install
 ```
-git clone
+git clone https://github.com/thisiswhereitype/HLiteral.git
 stack install
 ```
 ## Usage
