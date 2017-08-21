@@ -8,16 +8,26 @@ license:             BSD3
 license-file:        LICENSE
 author:              Joesph Scott
 maintainer:          notwhereitype@gmail.com
-copyright:           Joesph Scott
+copyright:           Joesph Scott 2017
 category:            String, Utility
 build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files:  README.md
 
 executable HLiteral
-  hs-source-dirs:      src
+  hs-source-dirs:      app
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:
     base >= 4.7 && < 5,
+    HLiteral
+  ghc-options:         -Wall -O2
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     HLiteral
+  build-depends:
+    base >= 4 && < 5,
     split
+  ghc-options:         -Wall -O2
+  default-language:    Haskell2010
